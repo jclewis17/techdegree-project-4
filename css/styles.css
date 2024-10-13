@@ -1,3 +1,26 @@
+.btn--default {
+  background-color: #24c2d4;
+  color: white;
+}
 
+.btn--success {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.btn--error {
+  background-color: #d9534f;
+  color: white;
+}
+
+.btn--warning {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.btn--info {
+  background-color: #927bc1;
+  color: white;
+}
 
 /*# sourceMappingURL=styles.css.map */
