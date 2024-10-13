@@ -23,4 +23,21 @@
   color: white;
 }
 
+@media (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+  }
+  .grid_col--12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .nav {
+    flex-direction: row;
+  }
+  .grid_col--12 {
+    width: calc(100% - 20px);
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
