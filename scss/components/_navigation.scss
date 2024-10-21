@@ -16,7 +16,9 @@
             color .2s ease-in-out;
     }
     &__item:hover {
-        color: $white;
         background-color: $color-primary;
+        & a {
+            color: $white;
+        }
     }
 }

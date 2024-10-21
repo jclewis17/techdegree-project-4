@@ -419,8 +419,10 @@ a {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .nav__item:hover {
-  color: #fff;
   background-color: #58e1c1;
+}
+.nav__item:hover a {
+  color: #fff;
 }
 
 .btn--default {
