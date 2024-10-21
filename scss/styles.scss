@@ -1,24 +1,5 @@
+//All Styles Imports
+
 @import 'utilities/index';
 @import 'base/index';
 @import 'components/index';
-
-// Breakpoints
-@media (max-width: $bp-small) {
-  .nav {
-      flex-direction: column;
-  }
-
-  .grid_col--12 {
-      width: 100%;
-  }
-}
-
-@media (min-width: $bp-large) {
-  .nav {
-      flex-direction: row;
-  }
-
-  .grid_col--12 {
-      width: calc(100% - 20px);
-  }
-}
