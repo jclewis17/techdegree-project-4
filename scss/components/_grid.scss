@@ -17,33 +17,33 @@
 }
 
 
-.grid__col--3 {
+.grid__col--3.theme__colors  {
     background-color: #deb2ee;
 }
-.grid__col--4 {
+.grid__col--4.theme__colors {
     background-color: #7ee6fd;
 }
-.grid__col--5 {
+.grid__col--5.theme__colors {
     background-color: #88d9a0;
 }
-.grid__col--6 {
+.grid__col--6.theme__colors {
     background-color: #4da2bb;
 }
-.grid__col--7 {
+.grid__col--7.theme__colors {
     background-color: #ec9fa3;
 }
-.grid__col--8 {
+.grid__col--8.theme__colors {
     background-color: #fd9f85;
 }
-.grid__col--9 {
+.grid__col--9.theme__colors {
     background-color: #e4757a;
 }
-.grid__col--10 {
+.grid__col--10.theme__colors {
     background-color: $color-success;
 }
- .grid__col--11 {
+ .grid__col--11.theme__colors {
     background-color: $color-secondary;
  }
- .grid__col--12 {
+ .grid__col--12.theme__colors {
     background-color: #80e8d1;
  }
