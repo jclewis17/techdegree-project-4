@@ -416,6 +416,28 @@ a {
   background-color: #af9ed1;
 }
 
+.form {
+  flex-basis: 100%;
+}
+
+.form__input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+.form__label--hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 @media (max-width: 480px) {
   .nav {
     flex-direction: column;
