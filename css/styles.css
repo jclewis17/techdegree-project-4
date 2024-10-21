@@ -602,6 +602,24 @@ a {
   .grid__col--12 {
     flex-basis: 100%;
   }
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav__item {
+    flex-basis: 100%;
+  }
+  .btn--default {
+    padding: 10px 30px;
+  }
+  .btn--default + .btn--default {
+    margin-left: 10px;
+  }
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
