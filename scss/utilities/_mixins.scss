@@ -14,3 +14,9 @@
         background-color: lighten($bg-color, 10%);
     }
 }
+
+@mixin mediaquery($bp-large) {
+    @media (min-width: $bp-large) {
+        @content;
+    }
+}
