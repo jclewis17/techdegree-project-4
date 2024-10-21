@@ -1,3 +1,13 @@
+.headline--primary {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #1abc9c;
+}
+
+.headline--secondary {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
 .btn--default {
   background-color: #24c2d4;
   color: white;
