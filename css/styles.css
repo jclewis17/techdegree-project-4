@@ -383,6 +383,9 @@ a {
 .grid__col--7.theme__colors {
   background-color: #ec9fa3;
 }
+.grid__col--7.theme__colors.centered {
+  margin-bottom: 10px;
+}
 
 .grid__col--8.theme__colors {
   background-color: #fd9f85;

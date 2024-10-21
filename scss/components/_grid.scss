@@ -37,6 +37,9 @@
 
 .grid__col--7.theme__colors {
     background-color: #ec9fa3;
+    &.centered {
+        margin-bottom: 10px;
+    }
 }
 
 .grid__col--8.theme__colors {
