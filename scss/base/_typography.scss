@@ -1,13 +1,25 @@
 //Base Styles
+* {
+   font-family: $font-primary;
+   color: $gray;
+   box-sizing: border-box;
+}
 
+p {
+    line-height: 1.45em;
+}
+
+a{
+    text-decoration: none;
+}
 
 //Typography
 .headline--primary {
-    font-family: $font-primary;
-    color: $color-heading;
+    color: $color-primary;
+    margin-left: 10px;
   }
   
   .headline--secondary {
-    font-family: $font-primary;
-    color: $color-text;
+    font-weight: 300;
+    color: $gray;
   }
