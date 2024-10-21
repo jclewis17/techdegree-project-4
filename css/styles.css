@@ -331,6 +331,76 @@ a {
   color: #777;
 }
 
+.btn--default {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background-color: #51ddfc;
+  border-radius: 5px;
+}
+.btn--default:hover {
+  background-color: #83e7fd;
+}
+
+.btn--success {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background-color: #5cb85c;
+  border-radius: 5px;
+}
+.btn--success:hover {
+  background-color: #80c780;
+}
+
+.btn--error {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background-color: #d9534f;
+  border-radius: 5px;
+}
+.btn--error:hover {
+  background-color: #e27c79;
+}
+
+.btn--warning {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background-color: #f0ad4e;
+  border-radius: 5px;
+}
+.btn--warning:hover {
+  background-color: #f4c37d;
+}
+
+.btn--info {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background-color: #927bc1;
+  border-radius: 5px;
+}
+.btn--info:hover {
+  background-color: #af9ed1;
+}
+
 @media (max-width: 480px) {
   .nav {
     flex-direction: column;

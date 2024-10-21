@@ -1,0 +1,14 @@
+@mixin btn-base($bg-color) {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background-color: $bg-color;
+    border-radius: $radius-sm;
+
+    &:hover {
+        background-color: lighten($bg-color, 10%);
+    }
+}
