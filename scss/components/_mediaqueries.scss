@@ -73,22 +73,45 @@
      }
 
      .nav {
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-     }
+        display: flex; /* Ensures that children are laid out in a flex container */
+        flex-direction: row; /* Makes the nav items display in a row */
+        justify-content: flex-end; /* Aligns the nav items to the right */
+        align-items: center; /* Vertically centers the items */
+        padding: 0; /* Remove padding to align items properly */
+        margin-left: auto;
+        list-style-type: none; /* Remove default list styling */
+    }
+    
+    .nav__item {
+        margin-left: 20px; /* Adds spacing between the items */
+        list-style: none; /* Ensures list bullets are removed */
+    }
+    
+    .nav__item a {
+        text-decoration: none; /* Removes underline from links */
+        color: $gray; /* Adds color to match mockup */
+        padding: 10px 15px; /* Adds padding for better clickability */
+        transition: color 0.2s, background-color 0.2s; /* Smooth hover effect */
+    }
+    
+    .nav__item a:hover {
+        background-color: $color-primary; /* Matches mockup hover background */
+        color: $white; /* Matches mockup hover text color */
+        border-radius: $radius-sm; /* Adds rounded corners */
+    }
+    
 
-     .nav__item {
-        flex-basis: 100%;
-     }
+     .btn--default,
+     .btn--success,
+     .btn--error,
+     .btn--warning,
+     .btn--info {
+    margin-right: 10px;
+    }
 
-     .btn--default {
-        padding: 10px 30px;
-     }
-
-     .btn--default + .btn--default {
-        margin-left: 10px;
-     }
+    .btn--default {
+    padding: 10px 30px;
+    }
 
      .logo {
         margin-left: initial;
