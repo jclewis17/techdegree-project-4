@@ -73,32 +73,30 @@
      }
 
      .nav {
-        display: flex; /* Ensures that children are laid out in a flex container */
-        flex-direction: row; /* Makes the nav items display in a row */
-        justify-content: flex-end; /* Aligns the nav items to the right */
-        align-items: center; /* Vertically centers the items */
-        padding: 0; /* Remove padding to align items properly */
+        @include flex-container(row, flex-end, center);
+        padding: 0;
         margin-left: auto;
-        list-style-type: none; /* Remove default list styling */
+        list-style-type: none;
     }
     
     .nav__item {
-        margin-left: 20px; /* Adds spacing between the items */
-        list-style: none; /* Ensures list bullets are removed */
+        margin-left: 20px;
+        list-style: none;
     }
     
     .nav__item a {
-        text-decoration: none; /* Removes underline from links */
-        color: $gray; /* Adds color to match mockup */
-        padding: 10px 15px; /* Adds padding for better clickability */
-        transition: color 0.2s, background-color 0.2s; /* Smooth hover effect */
+        text-decoration: none;
+        color: $gray;
+        padding: 10px 15px;
+        transition: color 0.2s, background-color 0.2s;
     }
     
     .nav__item a:hover {
-        background-color: $color-primary; /* Matches mockup hover background */
-        color: $white; /* Matches mockup hover text color */
-        border-radius: $radius-sm; /* Adds rounded corners */
+        background-color: $color-primary;
+        color: $white;
+        border-radius: $radius-sm;
     }
+    
     
 
      .btn--default,

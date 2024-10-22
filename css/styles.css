@@ -603,28 +603,28 @@ a {
     flex-basis: 100%;
   }
   .nav {
-    display: flex; /* Ensures that children are laid out in a flex container */
-    flex-direction: row; /* Makes the nav items display in a row */
-    justify-content: flex-end; /* Aligns the nav items to the right */
-    align-items: center; /* Vertically centers the items */
-    padding: 0; /* Remove padding to align items properly */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
     margin-left: auto;
-    list-style-type: none; /* Remove default list styling */
+    list-style-type: none;
   }
   .nav__item {
-    margin-left: 20px; /* Adds spacing between the items */
-    list-style: none; /* Ensures list bullets are removed */
+    margin-left: 20px;
+    list-style: none;
   }
   .nav__item a {
-    text-decoration: none; /* Removes underline from links */
-    color: #777; /* Adds color to match mockup */
-    padding: 10px 15px; /* Adds padding for better clickability */
-    transition: color 0.2s, background-color 0.2s; /* Smooth hover effect */
+    text-decoration: none;
+    color: #777;
+    padding: 10px 15px;
+    transition: color 0.2s, background-color 0.2s;
   }
   .nav__item a:hover {
-    background-color: #58e1c1; /* Matches mockup hover background */
-    color: #fff; /* Matches mockup hover text color */
-    border-radius: 5px; /* Adds rounded corners */
+    background-color: #58e1c1;
+    color: #fff;
+    border-radius: 5px;
   }
   .btn--default,
   .btn--success,
